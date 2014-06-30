@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TwitterList</string>
+    <string name="title_tweet_detail">Tweet Detail</string>
+
+</resources>
