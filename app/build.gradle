@@ -9,7 +9,7 @@ android {
         targetSdkVersion 20
         versionCode 1
         versionName '1.0'
-        testInstrumentationRunner 'com.zutubi.android.junitreport.JUnitReportTestRunner'
+        testInstrumentationRunner 'android.test.InstrumentationTestRunner'
         testPackageName "com.metawatch.twitterlist.test"
     }
     buildTypes {
@@ -28,5 +28,4 @@ dependencies {
     compile 'com.android.support:support-v4:20+'
 
     androidTestCompile files('libs/robotium-solo-5.2.1.jar')
-    androidTestCompile files('libs/android-junit-report-1.5.8.jar')
 }
